@@ -10,7 +10,12 @@ print("Coded by: Natasha-Net Systems")
 write("Username:")
 
 if input == "Natasha_Pon3" then
+print("Please Enter Password")
+write("Password:")
+local input = read("*")
+if input == "REDACTED" then
 print("Welcome Launch Officer Natasha")
+sleep(2)
 term.clear()
 term.setCursorPos(1,1)
 print("System Boot Sequence...")
