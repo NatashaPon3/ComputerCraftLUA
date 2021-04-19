@@ -1,1 +1,9 @@
+local side = back
+local password = "Redacted"
 
+while true do
+term.clear()
+term.setCursorPos(1,1)
+print("Ruican Nuclear Program Computer System")
+print("Coded by: Natasha-Net Systems")
+write("Password:"
