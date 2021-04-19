@@ -1,9 +1,20 @@
 local side = back
 local password = "Redacted"
+local username = "Natasha_Pon3"
 
 while true do
 term.clear()
 term.setCursorPos(1,1)
 print("Ruican Nuclear Program Computer System")
 print("Coded by: Natasha-Net Systems")
-write("Password:"
+write("Username:")
+
+if input == "Natasha_Pon3" then
+print("Welcome Launch Officer Natasha")
+term.clear()
+term.setCursorPos(1,1)
+print("System Boot Sequence...")
+sleep(2)
+
+end
+end --PROGRESS AS OF 4/19/2021
